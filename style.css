@@ -1,0 +1,76 @@
+:root {
+    background: linear-gradient(90deg, #0B92DE 0%, #78EFE8 100%);
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 155px;
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin: 1px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice {
+    margin: 25px;
+}
+
+i {
+    font-size: 225px;
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 0.5;
+}
+i:hover {
+    cursor: pointer;
+    color: white;
+    opacity: 1;
+}
+
+.play-buttons {
+    background: #FE00B7;
+    border: 4px solid #FFFFFF;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+
+.play-buttons:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#play-again {
+    display: none;
+}
+
+#play-hand {
+    display: none;
+}
